@@ -45,7 +45,7 @@ Créer des environnements virtuels Ubuntu sur VirtualBox en utilisant Vagrant et
 
 ### Étape 2 : Initialiser un nouveau projet Vagrant
 
-Ouvrez votre terminal et créez un nouveau répertoire pour votre projet. Ensuite, initialisez un nouveau projet Vagrant en utilisant la commande suivante : ### vagrant init
+Ouvrez votre terminal et créez un nouveau répertoire pour votre projet. Ensuite, initialisez un nouveau projet Vagrant en utilisant la commande suivante : `vagrant init`
 
 ### Étape 3 : Configurer le fichier Vagrantfile
 
@@ -81,14 +81,14 @@ Ouvrez le fichier Vagrantfile généré dans votre éditeur de texte préféré.
 
 ### Démarrer la machine virtuelle
 
-Dans votre terminal, naviguez vers le répertoire de votre projet Vagrant et démarrez la machine virtuelle en utilisant la commande : ### vagrant up
+Dans votre terminal, naviguez vers le répertoire de votre projet Vagrant et démarrez la machine virtuelle en utilisant la commande : `vagrant up`
 
 ### Accès à la machine virtuelle
 
-Une fois la machine virtuelle démarrée, vous pouvez vous y connecter en utilisant la commande : ### vagrant ssh
+Une fois la machine virtuelle démarrée, vous pouvez vous y connecter en utilisant la commande : `vagrant ssh`
 
 ### Vérifier l'installation de Docker
 
-À l'intérieur de la machine virtuelle, vérifiez que Docker a été installé avec succès en exécutant la commande : ### docker --version
+À l'intérieur de la machine virtuelle, vérifiez que Docker a été installé avec succès en exécutant la commande : `docker --version`
 
 ## MERCI
